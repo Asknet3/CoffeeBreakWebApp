@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://localhost:55675/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://localhost:55675/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://localhost:55675/">
+      <s:element name="UpdateMessage">
+        <s:complexType />
+      </s:element>
+      <s:element name="UpdateMessageResponse">
+        <s:complexType />
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="UpdateMessageSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateMessage" />
+  </wsdl:message>
+  <wsdl:message name="UpdateMessageSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateMessageResponse" />
+  </wsdl:message>
+  <wsdl:portType name="CoffeeBreakServiceSoap">
+    <wsdl:operation name="UpdateMessage">
+      <wsdl:input message="tns:UpdateMessageSoapIn" />
+      <wsdl:output message="tns:UpdateMessageSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="CoffeeBreakServiceSoap" type="tns:CoffeeBreakServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="UpdateMessage">
+      <soap:operation soapAction="http://localhost:55675/UpdateMessage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="CoffeeBreakServiceSoap12" type="tns:CoffeeBreakServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="UpdateMessage">
+      <soap12:operation soapAction="http://localhost:55675/UpdateMessage" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CoffeeBreakService">
+    <wsdl:port name="CoffeeBreakServiceSoap" binding="tns:CoffeeBreakServiceSoap">
+      <soap:address location="http://localhost:55675/CoffeeBreakService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="CoffeeBreakServiceSoap12" binding="tns:CoffeeBreakServiceSoap12">
+      <soap12:address location="http://localhost:55675/CoffeeBreakService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

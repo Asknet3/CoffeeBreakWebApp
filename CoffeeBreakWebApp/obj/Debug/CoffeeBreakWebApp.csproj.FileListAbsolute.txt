@@ -31,3 +31,36 @@ c:\users\asknet\documents\visual studio 2015\Projects\CoffeeBreakWebApp\CoffeeBr
 c:\users\asknet\documents\visual studio 2015\Projects\CoffeeBreakWebApp\CoffeeBreakWebApp\obj\Debug\CoffeeBreakWebApp.csprojResolveAssemblyReference.cache
 c:\users\asknet\documents\visual studio 2015\Projects\CoffeeBreakWebApp\CoffeeBreakWebApp\obj\Debug\CoffeeBreakWebApp.dll
 c:\users\asknet\documents\visual studio 2015\Projects\CoffeeBreakWebApp\CoffeeBreakWebApp\obj\Debug\CoffeeBreakWebApp.pdb
+C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\ApplicationInsights.config
+C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\roslyn\csc.exe
+C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\roslyn\vbc.exe
+C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\CoffeeBreakWebApp.dll.config
+C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\CoffeeBreakWebApp.dll
+C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\CoffeeBreakWebApp.pdb
+C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\Microsoft.AI.Web.dll
+C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\Microsoft.ApplicationInsights.dll
+C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\Microsoft.AI.Web.xml
+C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\Microsoft.ApplicationInsights.xml
+C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\obj\Debug\CoffeeBreakWebApp.csprojResolveAssemblyReference.cache
+C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\obj\Debug\CoffeeBreakWebApp.dll
+C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\obj\Debug\CoffeeBreakWebApp.pdb

@@ -26,10 +26,8 @@ namespace CoffeeBreakWebApp
             if(!String.IsNullOrEmpty(username))
             {
                 //Aggiorno il file con il nome
-                System.IO.File.WriteAllText(@"C:\Users\asknet\documents\visual studio 2015\Projects\CoffeeBreakWebApp\CoffeeBreakWebApp\coffeBreak\myname.txt", username);
-            }
-
-            
+                System.IO.File.WriteAllText(Server.MapPath("~/coffeBreak/myname.txt"), username);
+            }            
         }
     }
 }

@@ -16,12 +16,11 @@ namespace CoffeeBreakWebApp
     [System.Web.Script.Services.ScriptService]
     public class CoffeeBreakService : System.Web.Services.WebService
     {
-
         [WebMethod]
         public void UpdateMessage()
         {
             HttpRequest Request = HttpContext.Current.Request;
-            string username = Request["u"];
+            string username = Request["usrcfgsend"];
 
             if(!String.IsNullOrEmpty(username))
             {

@@ -11,24 +11,27 @@
     <form id="form1" runat="server">
    <h1 style="margin-top:20%;"><label id="nome"></label></h1>
     </form>
+    <div runat="server" id="log"></div>
 </body>
 </html>
 
 
 <script lanugage=javascript>
-                $(document).ready(function () {
-                    jQuery.get('/coffeBreak/myname.txt', function(data) {
-                       //process text file line by line
-                       $('#nome').html(data.replace('usrcfgsend',''));
-                    });
-                });
-
-
+               
                 var audioElement = document.createElement('audio');
                 audioElement.setAttribute('src', '/Asset/fischio_uomo.mp3');
 
                 // Refresh della pagina ogni x secondi
-                setTimeout(function(){
-                   window.location.reload(1);
+                setInterval(function(){
+                    $.ajax({
+                        url: '/coffeBreak/myname.txt',
+                        dataType: "text",
+                        success : function (data) {
+                            $("#nome").html(data);
+                        }
+
+                       
+                    });
                 }, 1000);
+
 </script>

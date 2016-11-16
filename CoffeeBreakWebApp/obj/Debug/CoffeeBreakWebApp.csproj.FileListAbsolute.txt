@@ -61,6 +61,13 @@ C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\Micr
 C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\Microsoft.ApplicationInsights.xml
 C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\obj\Debug\CoffeeBreakWebApp.csprojResolveAssemblyReference.cache
 C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\obj\Debug\CoffeeBreakWebApp.dll
 C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\obj\Debug\CoffeeBreakWebApp.pdb
+C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\Microsoft.Win32.TaskScheduler.dll
+C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\Microsoft.Win32.TaskScheduler.xml
+C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\de\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\es\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\fr\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\it\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\zh-CN\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\obj\Debug\CoffeeBreakWebApp.csprojResolveAssemblyReference.cache

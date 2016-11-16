@@ -31,3 +31,10 @@ C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\Micr
 C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\obj\Release\CoffeeBreakWebApp.csprojResolveAssemblyReference.cache
 C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\obj\Release\CoffeeBreakWebApp.dll
 C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\obj\Release\CoffeeBreakWebApp.pdb
+C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\Microsoft.Win32.TaskScheduler.dll
+C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\Microsoft.Win32.TaskScheduler.xml
+C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\de\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\es\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\fr\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\it\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\asknet\Desktop\Development\CoffeeBreakWebApp\CoffeeBreakWebApp\bin\zh-CN\Microsoft.Win32.TaskScheduler.resources.dll

@@ -1,6 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Net;
+using System.Net.Sockets;
+using System.Text;
 using System.Web;
 using System.Web.Services;
 
@@ -56,6 +60,59 @@ namespace CoffeeBreakWebApp
             openSpotify = s;
         }
 
+
+
+        [WebMethod]
+        public void SendSocket()
+        {
+            const int PORT_NO = 5000;
+            TcpClient client = new TcpClient();
+            IPEndPoint IP_End = new IPEndPoint(IPAddress.Parse("127.0.0.1"), PORT_NO);
+    
+            StreamReader STR;
+            StreamWriter STW;
+            string receive;
+            string text_to_send;
+            
+
+        //---data to send to the server---
+        string textToSend = "Ciaoooooo sono le " + DateTime.Now.ToString();
+
+            try
+            {
+                client = new TcpClient();
+                client.Connect(IP_End);
+                if (client.Connected)
+                {
+                    STW = new StreamWriter(client.GetStream());
+                    STR = new StreamReader(client.GetStream());
+                    STW.AutoFlush = true;
+
+                    STW.WriteLine(textToSend);
+                    
+                    
+                    //backgroundWorker1.RunWorkerAsync(); // Start receiving data in background 
+                }
+
+            }
+            catch (Exception x)
+            {
+                Console.Write(x.Message.ToString());
+            }
+            
+        }
+
+
+
+
+
+
+
+
+
+
+
+
         public static bool GetPlay()
         {
             return playSound;
@@ -65,5 +122,9 @@ namespace CoffeeBreakWebApp
         {
             return openSpotify;
         }
+
+
+
+
     }
 }
